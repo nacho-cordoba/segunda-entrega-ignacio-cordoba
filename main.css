@@ -1,0 +1,238 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;  
+}
+
+/* CSS NAV */
+
+.navbar-brand {
+    font-size: 25px;
+    padding-left: 25px;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-brand span {
+    color: #eb5e28;
+    font-weight: bold;
+}
+
+.navbar-toggler:hover {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #eb5e28;
+    transform: scale(1.05);
+}
+
+/* CSS HEADER */
+
+.home-header {
+    background-image: linear-gradient(0deg, #000000c7, #0000008e),url(img/man-lifting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+}
+
+.home-header-title {
+    color: white;
+    padding: 175px 0px 100px 0px;
+}
+
+.home-header-title h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.home-header-title h2 {
+    font-weight: 600;
+}
+
+.home-header-subtitle {
+    border: #eb5e28 2px solid;
+    background-color: #eb5f28;
+    border-radius: 10px;
+    margin: 0px 15px;
+}
+
+.home-header-subtitle h2 {
+    padding-top: 8px;
+}
+
+.home-header-subtitle a {
+    color: white;
+    font-weight: 600;    
+    text-decoration: none;
+}
+
+/* CSS MAIN ABOUT US*/
+
+#about-us {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    padding: 48px 0px;
+    color: #fffcf2;
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-title {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.about-us-title h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about-us-subtitle {
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 24px;
+}
+
+.about-us-subtitle span {
+    font-weight: 800;
+    color: #eb5e28;
+}
+
+/* CSS MAIN FEATURES */
+
+
+
+/* CSS MAIN MEMBERSHIPS */
+
+#memberships {
+    background-color: black;
+    padding: 24px;
+}
+
+#memberships h4, li {
+    padding: 10px 0px;
+    color: white;
+}
+
+.memberships-title {
+    width: 250px;
+}
+
+.memberships-title h3 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.memberships-title p {
+    font-size: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.memberships-basic ul {
+    list-style-type: disc;
+}
+
+.memberships-basic a {
+    border: solid #eb5e28;
+    border-bottom-right-radius: 12px;
+    margin-top: 35px;
+    font-size: 20px;
+    background: #eb5e28;
+    font-weight: bolder;
+    color: white;
+}
+
+.memberships-full ul {
+    list-style-type: disc;
+}
+
+.memberships-full a {
+    border: solid #eb5e28;
+    border-bottom-right-radius: 12px;
+    font-size: 20px;
+    background: #eb5e28;
+    font-weight: bolder;
+    color: white;
+}
+
+
+/* CSS FOOTER */
+
+
+/* CSS JOIN */
+
+
+
+/* CSS SEDES */
+
+
+
+
+/* CSS CLASES */
+
+#classes {
+    background-color: black;
+    color: #fffcf2;
+    padding-bottom: 50px;
+}
+
+.classes-title {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0px;
+}
+
+.classes-title h1 {
+    font-weight: 600;
+}
+
+.classes-complete-table {
+    display: flex;
+    justify-content: center;
+}
+
+.classes-complete-table th {
+    background-color: #eb5e28;
+    text-align: center;
+    height: 35px;
+    width: 175px;
+}
+
+.classes-complete-table tr {
+    text-align: center;
+}
+
+.classes-complete-table td p {
+    padding: 10px;
+    border-bottom: solid #eb5e28 1px;
+    border-right: solid #eb5e28 1px;
+    border-left: solid #eb5e28 1px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* CSS FAQS */
