@@ -314,7 +314,55 @@
 }
 /* CSS JOIN */
 
+#join {
+    background-color: black;
+}
 
+.join-title {
+    text-align: center;
+}
+
+.join-title h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.join-complete-form {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas: 
+    'create personal plan payment'
+    ;
+}
+
+.join-complete-form h3, p {
+    color: white;
+}
+
+.join-create-account {
+    display: flex;
+    flex-direction: column;
+}
+
+.join-personal-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.join-membership-selection {
+    display: flex;
+    flex-direction: column;
+}
+
+.join-payment-method {
+    display: flex;
+    flex-direction: column;
+}
+
+.join-send-info {
+    text-align: center;
+    padding-top: 50px;
+}
 
 /* CSS SEDES */
 
